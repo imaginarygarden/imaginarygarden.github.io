@@ -1,0 +1,43 @@
+import type { SocialLink } from "../types";
+
+export const SOCIALS: SocialLink[] = [
+    {
+        name: "Github",
+        href: "https://github.com/imaginarygarden",
+        linkTitle: `Follow Dmytro Filimonov on Github`,
+        isActive: true,
+    },
+    {
+        name: "Mail",
+        href: "mailto:filimonov.dmytro@gmail.com",
+        linkTitle: `Send an email to Dmytro`,
+        isActive: true,
+    },
+    {
+        name: "Google Scholar",
+        href: "https://scholar.google.com/citations?user=shannon",
+        linkTitle: `Dmytro Filimonov on Google Scholar`,
+        isActive: false,
+    },
+    {
+        name: "ORCID",
+        href: "https://orcid.org/0000-0002-1825-0097",
+        linkTitle: `Dmytro Filimonov on ORCID`,
+        isActive: false,
+    },
+    {
+        name: "LinkedIn",
+        href: "https://www.linkedin.com/in/dmytrofilimonov/",
+        linkTitle: `Dmytro Filimonov on LinkedIn`,
+        isActive: true, // Assuming Claude doesn't have a LinkedIn profile
+    },
+];
+
+export const SOCIAL_ICONS: Record<string, string> = {
+    Github: "Github",
+    Mail: "Mail",
+    Linkedin: "LinkedIn",
+    "Google Scholar": "GoogleScholar",
+    ORCID: "ORCID",
+    RSS: "RSS",
+};
