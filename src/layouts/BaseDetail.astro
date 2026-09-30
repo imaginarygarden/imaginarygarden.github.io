@@ -58,7 +58,7 @@ const ogImage = entry.data.image || SITE.ogImage;
         )}
 
         {detail.tags && detail.tags.length > 0 && (
-            <div class="flex gap-2 flex-wrap mb-4">
+            <div class="flex gap-2 flex-wrap mt-2 mb-4">
                 {detail.tags.map((tag: string) => (
                     <Tag name={tag} size="sm" />
                 ))}

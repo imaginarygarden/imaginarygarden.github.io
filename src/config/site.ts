@@ -3,7 +3,7 @@ import type { SiteConfig, ThemeConfig, SettingsConfig, UmamiAnalyticsConfig, Ana
 export const SITE: SiteConfig = {
     website: "https://imaginarygarden.github.io/",
     author: "Dmytro Filimonov",
-    desc: "Personal academic portfolio and blog of Claude Shannon, Father of Information Theory.",
+    desc: "Personal portfolio and blog of Dmytro Filimonov",
     title: "Dmytro Filimonov",
     ogImage: "shannon.webp",
     postPerPage: 5,
