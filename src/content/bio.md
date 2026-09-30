@@ -1,8 +1,8 @@
 ---
 name: "Dmytro Filimonov"
-avatar: "shannon.jpg"
+avatar: "avatar.jpeg"
 shortBio: "Software Engineer"
-institution: "EDV-Schulen, Plattling DE"
+institution: "EDV-Schule, Plattling DE"
 ---
 
 I am a mathematician and electrical engineer best known for founding **Information Theory**. My work in the late 1940s established the theoretical foundations of modern digital communications and computing.
