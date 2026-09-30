@@ -8,8 +8,8 @@ export const PAGES: PagesConfig = {
     },
     blog: {
         title: "Blog",
-        subtitle: "Thoughts on physics, philosophy, and music",
-        isActive: true,
+        subtitle: "Thoughts on software, configurations, etc.",
+        isActive: false,
     },
     publications: {
         title: "Publications",
